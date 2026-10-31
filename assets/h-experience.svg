@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="60" viewBox="0 0 1000 60" role="img" aria-label="03. Experience">
+  <rect x="0.5" y="0.5" width="999" height="59" rx="10" fill="#0a192f" stroke="#233554"/>
+  <text x="28" y="38" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="18" fill="#64ffda">03.</text>
+  <text x="74" y="39" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#ccd6f6">Experience</text>
+  <line x1="258" y1="31" x2="972" y2="31" stroke="#233554" stroke-width="1"/>
+</svg>

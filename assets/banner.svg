@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, my name is Sanket Kanade.</title>
+  <desc id="desc">I build scalable backend and AI systems. Software engineer and Master of AI student at Monash University, Melbourne. Winner of the Monash Final Year Industry Project Expo, first of 125 teams.</desc>
+  <defs>
+    <pattern id="screentone" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.3" fill="#64ffda"/>
+      <circle cx="11" cy="11" r="1.3" fill="#64ffda"/>
+    </pattern>
+    <clipPath id="card"><rect width="1000" height="300" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="300" fill="#0a192f"/>
+    <rect width="1000" height="300" fill="url(#screentone)" opacity="0.06"/>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="299" rx="13.5" fill="none" stroke="#233554"/>
+
+  <!-- Greeting with a blinking cursor, like a terminal prompt -->
+  <text x="56" y="76" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#64ffda">Hi, my name is</text>
+  <rect x="214" y="62" width="9" height="18" fill="#64ffda">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="53" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#ccd6f6" letter-spacing="-1">Sanket Kanade.</text>
+  <text x="55" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#8892b0">I build scalable backend and AI systems.</text>
+  <text x="56" y="246" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#a8b2d1">Software Engineer · Master of AI @ Monash · Melbourne</text>
+
+  <!-- The "S" monogram from the site's nav -->
+  <rect x="876" y="44" width="72" height="72" rx="8" fill="none" stroke="#64ffda" stroke-width="3"/>
+  <text x="912" y="93" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="34" font-weight="700" fill="#64ffda">S</text>
+
+  <!-- Expo win, as a pill -->
+  <rect x="606" y="222" width="342" height="36" rx="18" fill="#112240" stroke="#64ffda" stroke-opacity="0.55"/>
+  <g transform="translate(624 229)" fill="none" stroke="#64ffda" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="8" r="6"/>
+    <path d="M14.2 12.5 15.6 21l-4.6-2.8L6.4 21l1.4-8.5"/>
+  </g>
+  <text x="652" y="245" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#ccd6f6">Monash Expo winner · 1st of 125</text>
+</svg>
